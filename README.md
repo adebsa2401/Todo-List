@@ -34,6 +34,8 @@
 
 ### Prerequisites
 
+- [node.js / npm](https://nodejs.org/en/download/)
+
 <!-- ### Setup
 
 ### Install
