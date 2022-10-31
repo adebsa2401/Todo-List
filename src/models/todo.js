@@ -14,6 +14,12 @@ export default class Todo {
     .sort((todo1, todo2) => todo1.index - todo2.index)
     .map((todo) => new Todo(todo));
 
+  // get all the completed todo tasks
+  static allCompleted = () => dataProvider
+    .getTodos()
+    .filter((todo) => todo.completed)
+    .map((todo) => new Todo(todo));
+
   // get instance index
   get index() {
     return dataProvider.getIndex(this.id);

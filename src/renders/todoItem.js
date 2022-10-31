@@ -33,5 +33,13 @@ export default (todo) => {
     todo.edit(event.target.value);
   });
 
+  // toggle completion checkbox
+  row.querySelector('.bi-check2, .bi-square').addEventListener('click', (event) => {
+    todo = todo.toggleCompleted(); // change status in localStorage
+    event.target.classList.add(todo.completed ? 'bi-check2' : 'bi-square'); // toggle icon
+    event.target.classList.remove(todo.completed ? 'bi-square' : 'bi-check2');
+    event.target.nextElementSibling.classList.toggle('completed-todo'); // toggle text style
+  });
+
   return row.firstChild;
 };
