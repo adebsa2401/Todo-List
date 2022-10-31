@@ -1,0 +1,95 @@
+:root {
+  height: 100%;
+  color: #545862;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px #00000026;
+  width: 50%;
+}
+
+.card-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-bottom: 1px solid #00000014;
+  padding: 15px;
+}
+
+.card-row > *:first-child {
+  width: 100%;
+}
+
+input {
+  color: #0007;
+  border: none;
+  width: 100%;
+  font-size: inherit;
+}
+
+form input {
+  font-style: italic;
+}
+
+input:focus {
+  color: #000;
+  outline-style: none;
+  text-decoration: none;
+}
+
+.card-body {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.todo-block {
+  display: flex;
+  gap: 20px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-bottom: 1px solid #00000014;
+  padding: 15px;
+  background-color: #d3d3d333;
+  color: #0006;
+}
+
+.card-footer:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.bi {
+  color: #000;
+  opacity: 0.5;
+}
+
+.bi:hover {
+  opacity: 1;
+}
+
+.bi-check2 {
+  color: #2e8ae6;
+  opacity: 1;
+}
+
+.completed-todo {
+  text-decoration: line-through;
+}

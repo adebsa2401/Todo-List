@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="card">
+      <!-- card header start -->
+      <div class="card-row">
+        <span>Today's To Do</span>
+        <i class="bi bi-arrow-repeat"></i>
+      </div>
+      <!-- card header end -->
+
+      <!-- add to list form start -->
+      <form class="card-row">
+        <input type="text" placeholder="Add to your list..."/>
+        <i class="bi bi-arrow-return-left"></i>
+      </form>
+      <!-- add to list form end -->
+
+      <!-- todo list start -->
+      <ul class="card-body">
+        <li class="card-row">
+          <div class="todo-block">
+            <i class="bi bi-square"></i>
+            <input type="text" value="wash the dishes">
+          </div>
+          <i class="bi bi-three-dots-vertical"></i>
+        </li>
+        <li class="card-row">
+          <div class="todo-block">
+            <i class="bi bi-check2"></i>
+            <input class="completed-todo" type="text" value="complete To Do list project">
+          </div>
+          <i class="bi bi-three-dots-vertical"></i>
+        </li>
+      </ul>
+      <!-- todo list end -->
+
+      <!-- card footer start -->
+      <div class="card-footer">
+        Clear all completed
+      </div>
+      <!-- card footer end -->
+
+    </div>
+  </body>
+</html>
