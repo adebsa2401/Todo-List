@@ -28,7 +28,6 @@ body {
   padding: 15px;
 }
 
-
 .card-row > *:first-child {
   width: 100%;
 }
@@ -43,6 +42,8 @@ input {
   border: none;
   width: 100%;
   font-size: inherit;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 form input {
@@ -60,11 +61,6 @@ input:focus {
   padding: 0;
   margin: 0;
   list-style: none;
-}
-
-input {
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .card-body .card-row:has(input:focus) {
