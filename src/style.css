@@ -32,11 +32,18 @@ body {
   width: 100%;
 }
 
+.card-row:has(input) {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 input {
   color: #0007;
   border: none;
   width: 100%;
   font-size: inherit;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 form input {
@@ -45,6 +52,7 @@ form input {
 
 input:focus {
   color: #000;
+  background-color: inherit;
   outline-style: none;
   text-decoration: none;
 }
@@ -55,9 +63,14 @@ input:focus {
   list-style: none;
 }
 
+.card-body .card-row:has(input:focus) {
+  background-color: #fffeca;
+}
+
 .todo-block {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .card-footer {
