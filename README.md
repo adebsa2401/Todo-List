@@ -16,21 +16,25 @@
 
 ## Live Demo
 
-[https://adebsa2401.github.io/Todo-List/dist](https://adebsa2401.github.io/Todo-List/dist)
+[https://adebsa2401.github.io/Todo-List](https://adebsa2401.github.io/Todo-List)
 
 ## Getting Started
 
 <!-- **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.** -->
 
-- Start cloning this repository by entering the following command:
+1. Start cloning this repository by entering the following command:
 <pre><code>git clone https://github.com/adebsa2401/Todo-List.git</code></pre>
 
-- Then start a local server and open the `index.html` file in your browser
+2. Install npm dependencies by running <pre><code>npm i</code></pre>
 
-<!-- ### Prerequisites
+3. Build assets by running <pre><code>npm run build</code></pre>
 
-### Setup
+4. Finally run <pre><code>npm start</code></pre> to start webpack local server. The project's entry file `index.html` should automatically open in your browser. If it doesn't, open your browser and head over to the following url: `http://localhost:8080`
+
+### Prerequisites
+
+<!-- ### Setup
 
 ### Install
 
