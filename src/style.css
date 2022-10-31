@@ -45,6 +45,7 @@ form input {
 
 input:focus {
   color: #000;
+  background-color: inherit;
   outline-style: none;
   text-decoration: none;
 }
@@ -53,6 +54,10 @@ input:focus {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.card-body .card-row:has(input:focus) {
+  background-color: #fffeca;
 }
 
 .todo-block {
