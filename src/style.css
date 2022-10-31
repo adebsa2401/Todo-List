@@ -28,8 +28,14 @@ body {
   padding: 15px;
 }
 
+
 .card-row > *:first-child {
   width: 100%;
+}
+
+.card-row:has(input) {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 input {
@@ -56,6 +62,11 @@ input:focus {
   list-style: none;
 }
 
+input {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .card-body .card-row:has(input:focus) {
   background-color: #fffeca;
 }
@@ -63,6 +74,7 @@ input:focus {
 .todo-block {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .card-footer {
