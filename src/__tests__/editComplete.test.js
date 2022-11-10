@@ -122,4 +122,3 @@ describe('clear all completed', () => {
     expect(list).toHaveLength(1);
   });
 });
-
