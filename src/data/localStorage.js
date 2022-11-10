@@ -1,4 +1,4 @@
-const STORAGE_TODO_KEY = 'todos'; // todos data key in the localStorage
+export const STORAGE_TODO_KEY = 'todos'; // todos data key in the localStorage
 
 // Get the list of all todos tasks from the localStorage
 export const getTodos = () => {

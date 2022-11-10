@@ -5,7 +5,6 @@
 > In this repository, we build a simple and todo list app. Look at the minimalist version we tried to build below:
 [![Capstone intro](https://img.youtube.com/vi/AcUd-_Yjjqg/0.jpg)](https://www.youtube.com/watch?v=AcUd-_Yjjqg)
 
-
 ## Built With
 
 - HTML
@@ -24,6 +23,7 @@
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.** -->
 
 1. Start cloning this repository by entering the following command:
+
 <pre><code>git clone https://github.com/adebsa2401/Todo-List.git</code></pre>
 
 2. Install npm dependencies by running <pre><code>npm i</code></pre>
@@ -40,12 +40,15 @@
 
 ### Install
 
-### Usage
+### Usage -->
 
 ### Run tests
 
-### Deployment -->
+To run tests, run the command below:
 
+<pre><code>npm test</code></pre>
+
+<!-- ### Deployment -->
 
 ## Authors
 
